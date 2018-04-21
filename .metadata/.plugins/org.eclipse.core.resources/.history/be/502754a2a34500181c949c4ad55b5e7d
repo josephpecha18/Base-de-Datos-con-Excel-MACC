@@ -1,0 +1,14 @@
+package leer;
+
+public class LeerExcel {
+	
+	public void main(String[] args ) {
+		
+	}
+	
+	public void leer() {
+		
+		FileInputStream excel = new FileInputStream(new File("C:\\Users\\andres\\Documents\\UNIVERSIDAD\\PROYECTO\leeme.xlsx"))
+	}
+
+}
