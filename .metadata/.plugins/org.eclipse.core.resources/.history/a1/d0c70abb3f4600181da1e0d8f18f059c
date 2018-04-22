@@ -3,7 +3,7 @@ package leer;
 public class run {
 
 	public static void main(String[] args) {
-		String ruta = LeerExcel.chooseFile();
+		String ruta = ChooseFile();
 		LeerExcel.leer(ruta);
 	}
 }

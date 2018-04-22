@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import javax.swing.JFileChooser;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -46,10 +45,4 @@ public class LeerExcel{
 		}
 	}
 
-	public static String chooseFile() {
-		JFileChooser buscador = new JFileChooser();
-		buscador.showOpenDialog(buscador);
-		String ruta = buscador.getSelectedFile().getAbsolutePath();
-		return ruta;
-	}
 }
