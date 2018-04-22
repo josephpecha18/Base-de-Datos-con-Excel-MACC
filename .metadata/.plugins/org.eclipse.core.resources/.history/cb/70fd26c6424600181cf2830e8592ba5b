@@ -5,8 +5,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import javax.swing.JFileChooser;
-import javax.swing.filechooser.FileNameExtensionFilter;
-
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -49,9 +47,7 @@ public class LeerExcel{
 	}
 
 	public static String chooseFile() {
-		FileNameExtensionFilter filtro_arc = new FileNameExtensionFilter("Archivo Excel", "xlsx");
 		JFileChooser buscador = new JFileChooser();
-		buscador.setFileFilter(filtro_arc);
 		buscador.showOpenDialog(buscador);
 		String ruta = buscador.getSelectedFile().getAbsolutePath();
 		return ruta;

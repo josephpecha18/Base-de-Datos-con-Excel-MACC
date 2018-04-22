@@ -1,9 +1,0 @@
-package leer;
-
-public class LeerExcel {
-	
-	public void main(String[] args ) {
-		
-	}
-
-}
