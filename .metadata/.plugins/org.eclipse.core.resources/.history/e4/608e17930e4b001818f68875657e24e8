@@ -40,7 +40,7 @@ public class LeerExcel{
 							System.out.println(celda.getStringCellValue() + " ");
 							break;
 						case "DATE":
-							System.out.println(celda.getDateCellValue() + " ");
+							System.out.println(celda.getDateCellValue().toString() + " ");
 							break;
 						}
 					}

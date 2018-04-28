@@ -41,7 +41,6 @@ public class LeerExcel{
 							break;
 						case "DATE":
 							System.out.println(celda.getDateCellValue() + " ");
-							break;
 						}
 					}
 					System.out.println(" "); //para hacer salto de linea

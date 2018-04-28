@@ -32,17 +32,7 @@ public class LeerExcel{
 					
 					for (int x = 0; x < numceldas; x++) {
 						Cell celda = fila.getCell(x);
-						switch (celda.getCellTypeEnum().toString()) {
-						case "NUMERIC":
-							System.out.print(celda.getNumericCellValue() + " ");
-							break;
-						case "STRING":
-							System.out.println(celda.getStringCellValue() + " ");
-							break;
-						case "DATE":
-							System.out.println(celda.getDateCellValue() + " ");
-							break;
-						}
+						System.out.print(celda.getNumericCellValue() + " ");
 					}
 					System.out.println(" "); //para hacer salto de linea
 				} 
