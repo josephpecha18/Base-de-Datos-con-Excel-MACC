@@ -37,7 +37,10 @@ public class LeerExcel{
 							System.out.print(celda.getNumericCellValue() + " ");
 							break;
 						case "STRING":
-							System.out.print(celda.getStringCellValue() + " ");
+							System.out.println(celda.getStringCellValue() + " ");
+							break;
+						case "DATE":
+							System.out.println(celda.getDateCellValue() + " ");
 							break;
 						}
 					}
